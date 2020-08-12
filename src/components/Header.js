@@ -1,12 +1,12 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import logo from "../components/logo.png";
+import logo from "../assets/imgs/logo.png";
 
 const Header = () => {
 	{
 		return (
 			<div>
-				<h1 className="heading-background">Yadira's Portfolio</h1>
+				<h2 className="heading-background">Yadira's Portfolio</h2>
 				<header>
 					<h1>
 						<Fade bottom cascade>
