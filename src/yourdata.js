@@ -1,12 +1,11 @@
 export default {
-	name: "Yadira Tamarit.",
+	name: "",
 	headerTagline: [
-		//Line 1 For Header
-		"Hi 👋 You found me! I am Yadira.",
-		//Line 2 For Header
-		"Web developer ",
-		//Line 3 For Header
-		"-------",
+		,
+		,
+		,//Line 1 For Header
+	//Line 2 For Header
+	//Line 3 For Header
 	],
 
 	contactEmail: "ystamaritq@gmail.com",

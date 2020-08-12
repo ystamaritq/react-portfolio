@@ -14,7 +14,7 @@ body {
 
 .App-header {
 	position: relative;
-	min-height: 100vh;
+	min-height: 80vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -24,11 +24,11 @@ body {
 .heading-background {
 	position: fixed;
 	opacity: 0.05;
-	font-size: 25em;
+	font-size: 15em;
 	left: -0.2em;
 	top: -0.5em;
 	z-index: -100;
-	color: #9352ae;
+	color: #371919;
 }
 header {
 	display: flex;
@@ -67,7 +67,7 @@ li .link:hover {
 	opacity: 1;
 }
 .active {
-	color: black;
+	color: rgb(24, 24, 24);
 	opacity: 1;
 }
 
@@ -88,12 +88,14 @@ li .link:hover {
 	font-family: "Open Sans", sans-serif;
 	color: white;
 	text-decoration: none;
+	border-radius: 60px;
 }
 .header-title {
 	position: relative;
 	font-family: "Montserrat", sans-serif;
-	font-size: 3em;
+	font-size: 4em;
 	text-align: left;
+	color: #472d30;
 	top: 2em;
 }
 .about {
@@ -106,17 +108,23 @@ li .link:hover {
 }
 .about-content h1 {
 	font-family: "Montserrat", sans-serif;
-	font-size: 5em;
+	font-size: 3em;
 	text-align: left;
+	color: #5e3719;
+	margin-top: 5em;
 }
 .about-content p {
-	font-size: 1.1em;
+	font-size: 1.4em;
 	text-align: left;
-	width: 30em;
+	width: 32em;
 	text-align: justify;
+	font-family: cursive;
+	color: #6c472b;
 }
 .about img {
 	margin-left: auto;
+	border-radius: 60%;
+	margin-top: 8em;
 }
 .work {
 	position: relative;
@@ -128,7 +136,7 @@ li .link:hover {
 }
 .work .heading {
 	font-family: "Montserrat", sans-serif;
-	font-size: 5em;
+	font-size: 3em;
 	text-align: left;
 }
 .work .work-content {
