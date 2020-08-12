@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import logo from "../components/logo.png";
 
 const Header = () => {
 	{
@@ -9,7 +10,7 @@ const Header = () => {
 				<header>
 					<h1>
 						<Fade bottom cascade>
-							Yadira's Portfolio
+							<img src={logo} style={{ width: "15em" }} />
 						</Fade>
 					</h1>
 				</header>
