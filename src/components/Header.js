@@ -10,7 +10,7 @@ const Header = () => {
 				<header>
 					<h1>
 						<Fade bottom cascade>
-							<img src={logo} style={{ width: "15em" }} />
+							<img src={logo} style={{ width: "13em" }} />
 						</Fade>
 					</h1>
 				</header>

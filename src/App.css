@@ -29,6 +29,7 @@ body {
 	top: -0.5em;
 	z-index: -100;
 	color: #371919;
+	font-family: cursive;
 }
 header {
 	display: flex;
