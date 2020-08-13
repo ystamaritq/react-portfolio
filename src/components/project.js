@@ -1,19 +1,25 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import { Col } from "react-bootstrap";
+import { Col, Card } from "react-bootstrap";
 
 const Project = (props) => {
 	{
 		return (
-			<Fade bottom>
-				<Col className="project">
-					<a href={props.url}>
-						<img src={props.imageSrc}></img>
-					</a>
-					<h1>{props.title}</h1>
-					<span>{props.service}</span>
-				</Col>
-			</Fade>
+			<Col className="col-lg-6 col-md-6 col-sm-12 p-4 my-3">
+				<Fade bottom>
+					<Card style={{ width: "100%" }} className="shadow-lg">
+						<Card.Img variant="top" src={props.imageSrc} />
+						<Card.Body>
+							<Card.Title>{props.title}</Card.Title>
+						</Card.Body>
+						<Card.Body>
+							<Card.Link href={props.url} target="_blank">
+								{props.service}
+							</Card.Link>
+						</Card.Body>
+					</Card>
+				</Fade>
+			</Col>
 		);
 	}
 };
