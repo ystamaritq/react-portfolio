@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 const Work = () => {
 	{
 		return (
-			<Container>
+			<Container className="py-5">
 				<h1 className="heading">
 					<Fade bottom cascade>
 						Work
@@ -21,6 +21,8 @@ const Work = () => {
 							service={p.service}
 							imageSrc={p.imageSrc}
 							url={p.url}
+							urldeploy={p.urldeploy}
+							deploy={p.deploy}
 						></Project>
 					))}
 				</div>
