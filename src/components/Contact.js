@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 
 const Contact = () => {
 	return (
-		<Container>
+		<Container className="py-5">
 			<h1>
 				<Fade bottom cascade>
 					{" "}
@@ -33,9 +33,11 @@ const Contact = () => {
 				</div>
 			</Fade>
 
-			<span className="footer">
-				Made With ❤ by{" "}
-				<a href={`mailto:${data.contactEmail}`}>Yadira Tamarit</a>
+			<span className="footer m-auto">
+				developed with love by
+				<a href="mailto:ystamaritq@gmail.com" className="ml-1">
+					Yadira Tamarit
+				</a>
 			</span>
 		</Container>
 	);

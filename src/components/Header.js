@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 const Header = () => {
 	{
 		return (
-			<Container>
+			<Container className="py-5">
 				<h2 className="heading-background">Yadira's Portfolio</h2>
 				<Fade bottom>
 					<h2 className="header-title">

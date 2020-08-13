@@ -10,11 +10,20 @@ const Project = (props) => {
 					<Card className="shadow-lg">
 						<Card.Img variant="top" src={props.imageSrc} />
 						<Card.Body>
-							<Card.Title>{props.title}</Card.Title>
+							<Card.Title className="project-title-card">
+								{props.title}
+							</Card.Title>
 						</Card.Body>
 						<Card.Body>
-							<Card.Link href={props.url} target="_blank">
+							<Card.Link href={props.url} target="_blank" className="proj-link">
 								{props.service}
+							</Card.Link>
+							<Card.Link
+								href={props.urldeploy}
+								target="_blank"
+								className="proj-link"
+							>
+								{props.deploy}
 							</Card.Link>
 						</Card.Body>
 					</Card>
