@@ -16,11 +16,8 @@ const Contact = () => {
 				<div className="contact-content">
 					<h1>
 						Let’s create your next<br></br>
-						<span className="amazing-color">experience together</span>
+						<span className="amazing-color ml-5">experience together</span>
 					</h1>
-					<a href={`mailto:${data.contactEmail}`} className="email">
-						{data.contactEmail}
-					</a>
 					<ul>
 						{data.social.map((link, index) => (
 							<li key={index}>
