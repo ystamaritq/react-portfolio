@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
-import Work from "./components/Work";
+import Work from "./components/work";
 import Contact from "./components/Contact";
 import NavigationBar from "./components/Navbar";
 import "./App.css";

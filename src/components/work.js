@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Project";
+import Project from "./project";
 import Fade from "react-reveal/Fade";
 import data from "../projectdata";
 import { Container } from "react-bootstrap";
