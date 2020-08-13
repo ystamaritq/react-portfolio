@@ -6,7 +6,9 @@ import {
 	faGithub,
 	faLinkedin,
 	faFacebook,
+	faAdobe,
 } from "@fortawesome/free-brands-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Container, Col, Image } from "react-bootstrap";
 
 const About = () => {
@@ -47,9 +49,7 @@ const About = () => {
 							<a href="https://github.com/ystamaritq" target="_blank">
 								<FontAwesomeIcon
 									icon={faGithub}
-									size="lg"
-									s
-									style={{ color: "#5E3719", margin: "5px" }}
+									style={{ color: "#5E3719", margin: "10px", fontSize: "30px" }}
 								/>
 							</a>
 							<a
@@ -58,17 +58,29 @@ const About = () => {
 							>
 								<FontAwesomeIcon
 									icon={faLinkedin}
-									size="lg"
-									style={{ color: "#5E3719", margin: "5px" }}
+									style={{ color: "#5E3719", margin: "10px", fontSize: "30px" }}
 								/>
 							</a>
 							<a href="https://www.facebook.com/yadira.tamarit" target="_blank">
 								<FontAwesomeIcon
 									icon={faFacebook}
-									size="lg"
 									style={{
 										color: "#5E3719",
-										margin: "5px",
+										margin: "10px",
+										fontSize: "30px",
+									}}
+								/>
+							</a>
+							<a
+								href="https://drive.google.com/file/d/1WcYvlFhNcF9DI-MEwoAOi8kSBUl4Abqt/view?usp=sharing"
+								target="_blank"
+							>
+								<FontAwesomeIcon
+									icon={faFilePdf}
+									style={{
+										color: "#5E3719",
+										margin: "10px",
+										fontSize: "30px",
 									}}
 								/>
 							</a>
