@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 
 const Contact = () => {
 	return (
-		<Container>
+		<Container className="py-5">
 			<h1>
 				<Fade bottom cascade>
 					{" "}
