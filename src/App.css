@@ -128,12 +128,13 @@ nav .link:hover {
 }
 
 .project-title-card:hover {
-	opacity: 40%;
+	opacity: 80%;
+	color: #371919;
 }
 
 .work {
 	position: relative;
-	top: 10em;
+	top: 2em;
 }
 .work .heading {
 	font-family: "Montserrat", sans-serif;
