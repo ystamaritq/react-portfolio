@@ -1,12 +1,4 @@
 export default {
-	name: "",
-	headerTagline: [
-		,
-		,
-		,//Line 1 For Header
-	//Line 2 For Header
-	//Line 3 For Header
-	],
 	aboutImage: "./yady.png",
 	social: [
 		// Add Or Remove The Link Accordingly

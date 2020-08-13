@@ -5,9 +5,9 @@ import { Col, Card } from "react-bootstrap";
 const Project = (props) => {
 	{
 		return (
-			<Col className="col-lg-6 col-md-6 col-sm-12 p-4 my-3">
+			<Col className="col-sm-12 col-md-6 col-lg-6 mb-3 p-4 my-3">
 				<Fade bottom>
-					<Card style={{ width: "100%" }} className="shadow-lg">
+					<Card className="shadow-lg">
 						<Card.Img variant="top" src={props.imageSrc} />
 						<Card.Body>
 							<Card.Title>{props.title}</Card.Title>

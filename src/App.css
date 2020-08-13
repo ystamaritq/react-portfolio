@@ -118,6 +118,7 @@ nav .link:hover {
 	border-radius: 60%;
 	margin-top: 8em;
 	margin-bottom: 8em;
+	width: 100%;
 }
 .work {
 	position: relative;
@@ -138,7 +139,7 @@ nav .link:hover {
 }
 .contact h1 {
 	font-family: "Montserrat", sans-serif;
-	font-size: 5em;
+	font-size: 3em;
 	text-align: left;
 }
 .amazing-color {
