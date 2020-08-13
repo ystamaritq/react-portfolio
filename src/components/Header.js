@@ -1,31 +1,23 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
-import data from '../yourdata'
+import React from "react";
+import Fade from "react-reveal/Fade";
+import logo from "../assets/imgs/logo.png";
+import { Container } from "react-bootstrap";
 
-
-class Header extends Component {
-    state = {}
-
-    render() {
-        return (<div>
-        <h1 className='heading-background'>CREATIVE</h1>
-            <header>
-                <h1>
-                    <Fade bottom cascade>{data.name}</Fade></h1>
-            </header>
-            <Fade bottom>
-            <p className='header-title'>
-            {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
-            {data.headerTagline[2]}
-               <br></br>
-                    <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
-                </p>
-            </Fade>
-
-
-
-        </div>);
-    }
-}
+const Header = () => {
+	{
+		return (
+			<Container>
+				<h2 className="heading-background">Yadira's Portfolio</h2>
+				<Fade bottom>
+					<h2 className="header-title">
+						Hi, my name is Yadira Tamarit<br></br>
+						I'm a Full Stack Developer
+						<br></br>
+					</h2>
+				</Fade>
+			</Container>
+		);
+	}
+};
 
 export default Header;

@@ -1,20 +1,27 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
+import React from "react";
+import Fade from "react-reveal/Fade";
+import { Col, Card } from "react-bootstrap";
 
-class Project extends Component {
-    state = {  }
-    render() { 
-        return ( 
-        <Fade bottom>
-        <div className='project'>
-        <a href={this.props.url}>
-            <img src={this.props.imageSrc} alt={this.props.title}></img>
-            </a>
-            <h1>{this.props.title}</h1>
-            <span>{this.props.service}</span>
-        </div> 
-            </Fade>);
-    }
-}
- 
+const Project = (props) => {
+	{
+		return (
+			<Col className="col-lg-6 col-md-6 col-sm-12 p-4 my-3">
+				<Fade bottom>
+					<Card style={{ width: "100%" }} className="shadow-lg">
+						<Card.Img variant="top" src={props.imageSrc} />
+						<Card.Body>
+							<Card.Title>{props.title}</Card.Title>
+						</Card.Body>
+						<Card.Body>
+							<Card.Link href={props.url} target="_blank">
+								{props.service}
+							</Card.Link>
+						</Card.Body>
+					</Card>
+				</Fade>
+			</Col>
+		);
+	}
+};
+
 export default Project;
