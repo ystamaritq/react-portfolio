@@ -1,8 +1,8 @@
 import React from "react";
-import Project from "./project";
+import Project from "./Project";
 import Fade from "react-reveal/Fade";
 import data from "../projectdata";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Work = () => {
 	{
@@ -10,10 +10,10 @@ const Work = () => {
 			<Container>
 				<h1 className="heading">
 					<Fade bottom cascade>
-						Work.
+						Work
 					</Fade>
 				</h1>
-				<Row>
+				<div className="d-sm-block d-md-flex flex-md-wrap">
 					{data.map((p) => (
 						<Project
 							key={p.id}
@@ -23,7 +23,7 @@ const Work = () => {
 							url={p.url}
 						></Project>
 					))}
-				</Row>
+				</div>
 			</Container>
 		);
 	}
