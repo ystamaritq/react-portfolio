@@ -2,17 +2,18 @@ import React from "react";
 import Project from "./project";
 import Fade from "react-reveal/Fade";
 import data from "../projectdata";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Work = () => {
 	{
 		return (
-			<div>
+			<Container>
 				<h1 className="heading">
 					<Fade bottom cascade>
 						Work.
 					</Fade>
 				</h1>
-				<div className="work-content">
+				<Row>
 					{data.map((p) => (
 						<Project
 							key={p.id}
@@ -22,8 +23,8 @@ const Work = () => {
 							url={p.url}
 						></Project>
 					))}
-				</div>
-			</div>
+				</Row>
+			</Container>
 		);
 	}
 };

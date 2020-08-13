@@ -67,16 +67,8 @@ export default {
 		// Add Or Remove The Link Accordingly
 		{ name: "Github", url: "https://github.com/chetanverma16" },
 		{
-			name: "Behance",
-			url: "https://www.behance.net/chetanverma",
-		},
-		{
-			name: "Dribbble",
-			url: "https://dribbble.com/chetanverma",
-		},
-		{
-			name: "Instagram",
-			url: "https://www.instagram.com/cv.uidesign/",
+			name: "LinkedIn",
+			url: "https://www.linkedin.com/in/yadiratamarit/",
 		},
 	],
 };
