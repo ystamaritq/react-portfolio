@@ -120,6 +120,17 @@ nav .link:hover {
 	margin-bottom: 8em;
 	width: 100%;
 }
+
+.project-title-card {
+	color: #886e5a;
+	font-weight: bold;
+	margin-top: 1.2em;
+}
+
+.project-title-card:hover {
+	opacity: 40%;
+}
+
 .work {
 	position: relative;
 	top: 10em;
