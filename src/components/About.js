@@ -49,7 +49,7 @@ const About = () => {
 							<a href="https://github.com/ystamaritq" target="_blank">
 								<FontAwesomeIcon
 									icon={faGithub}
-									style={{ color: "#5E3719", margin: "5px", fontSize: "40px" }}
+									style={{ color: "#5E3719", margin: "10px", fontSize: "30px" }}
 								/>
 							</a>
 							<a
@@ -58,7 +58,7 @@ const About = () => {
 							>
 								<FontAwesomeIcon
 									icon={faLinkedin}
-									style={{ color: "#5E3719", margin: "5px", fontSize: "40px" }}
+									style={{ color: "#5E3719", margin: "10px", fontSize: "30px" }}
 								/>
 							</a>
 							<a href="https://www.facebook.com/yadira.tamarit" target="_blank">
@@ -66,8 +66,8 @@ const About = () => {
 									icon={faFacebook}
 									style={{
 										color: "#5E3719",
-										margin: "5px",
-										fontSize: "40px",
+										margin: "10px",
+										fontSize: "30px",
 									}}
 								/>
 							</a>
@@ -79,8 +79,8 @@ const About = () => {
 									icon={faFilePdf}
 									style={{
 										color: "#5E3719",
-										margin: "5px",
-										fontSize: "40px",
+										margin: "10px",
+										fontSize: "30px",
 									}}
 								/>
 							</a>
