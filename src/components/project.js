@@ -18,6 +18,9 @@ const Project = (props) => {
 							<Card.Link href={props.url} target="_blank">
 								{props.service}
 							</Card.Link>
+							<Card.Link href={props.urldeploy} target="_blank">
+								{props.deploy}
+							</Card.Link>
 						</Card.Body>
 					</Card>
 				</Fade>
