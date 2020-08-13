@@ -12,10 +12,10 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 const About = () => {
 	return (
 		<Container className="about">
-			<Row className="about-content">
-				<Col className="col-lg-8 col-sm-12">
+			<div className="about-content d-sm-block d-lg-flex flex-lg-wrap">
+				<Col className="col-lg-6 col-sm-12">
 					<Fade bottom>
-						<h1>
+						<h1 className="heading mb-5">
 							<Fade bottom cascade>
 								About Me
 							</Fade>
@@ -75,10 +75,10 @@ const About = () => {
 						</div>
 					</Fade>
 				</Col>
-				<Col className="col-lg-4 col-sm-12">
-					<Image src={pic} alt="me" />
+				<Col className="col-lg-6 col-sm-12 pt-5">
+					<Image src={pic} alt="me" className="pt-5" />
 				</Col>
-			</Row>
+			</div>
 		</Container>
 	);
 };
