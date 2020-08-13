@@ -6,7 +6,6 @@ import {
 	faGithub,
 	faLinkedin,
 	faFacebook,
-	faAdobe,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { Container, Col, Image } from "react-bootstrap";

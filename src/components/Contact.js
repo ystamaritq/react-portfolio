@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Contact = () => {
 	return (
@@ -18,6 +18,15 @@ const Contact = () => {
 						Let’s create your next<br></br>
 						<span className="amazing-color ml-5">experience together</span>
 					</h1>
+				</div>
+			</Fade>
+
+			<Row className="footer mb-0">
+				<Col className="col-lg-6 col-sm-12">
+					<span className="text-custom mr-1">developed with love by</span>
+					<a href="mailto:ystamaritq@gmail.com">Yadira Tamarit</a>
+				</Col>
+				<Col className="col-lg-6 col-sm-12">
 					<ul>
 						{data.social.map((link, index) => (
 							<li key={index}>
@@ -27,15 +36,8 @@ const Contact = () => {
 							</li>
 						))}
 					</ul>
-				</div>
-			</Fade>
-
-			<span className="footer m-auto">
-				developed with love by
-				<a href="mailto:ystamaritq@gmail.com" className="ml-1">
-					Yadira Tamarit
-				</a>
-			</span>
+				</Col>
+			</Row>
 		</Container>
 	);
 };
