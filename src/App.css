@@ -122,14 +122,23 @@ nav .link:hover {
 }
 
 .project-title-card {
-	color: #886e5a;
+	color: #604646;
 	font-weight: bold;
 	margin-top: 1.2em;
 }
 
+.proj-link {
+	color: #6c5e5e;
+	font-weight: bold;
+}
+
+.proj-link:hover {
+	color: brown;
+}
+
 .project-title-card:hover {
 	opacity: 80%;
-	color: #371919;
+	color: #521414;
 }
 
 .work {
