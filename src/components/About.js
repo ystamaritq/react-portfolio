@@ -7,11 +7,11 @@ import {
 	faLinkedin,
 	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Col, Image } from "react-bootstrap";
 
 const About = () => {
 	return (
-		<Container className="about">
+		<Container className="py-5">
 			<div className="about-content d-sm-block d-lg-flex flex-lg-wrap">
 				<Col className="col-lg-6 col-sm-12">
 					<Fade bottom>
