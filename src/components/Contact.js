@@ -33,9 +33,11 @@ const Contact = () => {
 				</div>
 			</Fade>
 
-			<span className="footer">
-				Made With ❤ by{" "}
-				<a href={`mailto:${data.contactEmail}`}>Yadira Tamarit</a>
+			<span className="footer m-auto">
+				developed with love by
+				<a href="mailto:ystamaritq@gmail.com" className="ml-1">
+					Yadira Tamarit
+				</a>
 			</span>
 		</Container>
 	);

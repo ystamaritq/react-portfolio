@@ -65,6 +65,7 @@ nav .link {
 
 nav .link:hover {
 	opacity: 1;
+	color: #721515;
 }
 
 .active {
@@ -162,14 +163,15 @@ nav .link:hover {
 	font-family: "Montserrat", sans-serif;
 	font-size: 3em;
 	text-align: left;
+	color: #5e3719;
 }
 .amazing-color {
-	color: #9352ae;
+	color: #721515;
 	opacity: 1;
 }
 
 .contact .email {
-	color: black;
+	color: #5e3719;
 	font-size: 2em;
 }
 .contact li {
@@ -181,7 +183,7 @@ nav .link:hover {
 }
 .contact li a {
 	text-decoration: none;
-	color: black;
+	color: #5b1717;
 }
 .footer {
 	position: relative;
@@ -190,5 +192,6 @@ nav .link:hover {
 }
 .footer a {
 	text-decoration: none;
-	color: #2c59fb;
+	color: #5b1717;
+	font-style: normal;
 }
