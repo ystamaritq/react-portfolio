@@ -13,7 +13,7 @@ const NavigationBar = () => {
 		<Fade bottom cascade>
 			<Navbar expand="md" className="p-md-5" fixed="top">
 				<Navbar.Brand href="/">
-					<Image src={logo} className="ml-md-5" style={{ width: "10em" }} />
+					<Image src={logo} className="ml-md-5 ml-sm-2 custom-logo" />
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="navbar-nav" />
 				<Navbar.Collapse>
