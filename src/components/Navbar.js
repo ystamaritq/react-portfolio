@@ -41,7 +41,17 @@ const NavigationBar = () => {
 						>
 							About
 						</Link>
-
+						<Link
+							className="link"
+							activeClass="active"
+							to="Skills"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={500}
+						>
+							Skills
+						</Link>
 						<Link
 							className="link"
 							activeClass="active"
