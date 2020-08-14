@@ -91,7 +91,7 @@ const Skills = () => {
 		return (
 			<Container className="skills">
 				<Fade bottom>
-					<h1 className="heading mb-5">
+					<h1 className="heading mb-2">
 						<Fade bottom cascade>
 							Skills
 						</Fade>
