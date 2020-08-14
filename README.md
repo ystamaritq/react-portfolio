@@ -1,7 +1,7 @@
 # Yadira's Portfolio
 
 <p align="center">
- <img src="./src/assets/imgs/logo.png" alt="logo" width="300px">
+ <img src="./src/assets/imgs/logo.png" alt="logo" width="250px">
 </p>
 
 ---
