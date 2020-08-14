@@ -1,11 +1,10 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import RadialBarChart from "@bit/recharts.recharts.radial-bar-chart";
 import RadialBar from "@bit/recharts.recharts.radial-bar";
 import Legend from "@bit/recharts.recharts.legend";
 import { Container } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import ResponsiveContainer from "@bit/recharts.recharts.responsive-container";
-import { findLastIndex } from "lodash";
 
 const data = [
 	{
