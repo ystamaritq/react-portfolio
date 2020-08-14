@@ -86,7 +86,7 @@ const About = () => {
 						</div>
 					</Fade>
 				</Col>
-				<Col className="col-lg-6 col-sm-12 pt-5">
+				<Col className="about col-lg-6 col-sm-12 pt-5">
 					<Image src={pic} alt="me" className="pt-5" />
 				</Col>
 			</div>

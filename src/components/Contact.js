@@ -9,7 +9,7 @@ const Contact = () => {
 			<h1>
 				<Fade bottom cascade>
 					{" "}
-					Contact.
+					Contact
 				</Fade>
 			</h1>
 			<Fade bottom>
