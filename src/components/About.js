@@ -8,7 +8,13 @@ import {
 	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { Container, Col, Image } from "react-bootstrap";
+import {
+	Container,
+	Col,
+	Image,
+	OverlayTrigger,
+	Tooltip,
+} from "react-bootstrap";
 
 const About = () => {
 	return (
@@ -41,48 +47,81 @@ const About = () => {
 						<p>
 							I’m open to learn when is need it. I studied Computer Sciences in
 							(Universidad de las Ciencias Informaticas) located in Havana, Cuba
-							from (2003 - 2008).For more information about my professional
+							from (2003 - 2008). For more information about my professional
 							career, please reference the provided links below:
 						</p>
 						<div>
-							<a href="https://github.com/ystamaritq" target="_blank">
-								<FontAwesomeIcon
-									icon={faGithub}
-									style={{ color: "#5E3719", margin: "10px", fontSize: "30px" }}
-								/>
-							</a>
-							<a
-								href="https://www.linkedin.com/in/yadiratamarit/"
-								target="_blank"
+							<OverlayTrigger
+								placement="bottom"
+								overlay={<Tooltip id="tooltip-github">Github</Tooltip>}
 							>
-								<FontAwesomeIcon
-									icon={faLinkedin}
-									style={{ color: "#5E3719", margin: "10px", fontSize: "30px" }}
-								/>
-							</a>
-							<a href="https://www.facebook.com/yadira.tamarit" target="_blank">
-								<FontAwesomeIcon
-									icon={faFacebook}
-									style={{
-										color: "#5E3719",
-										margin: "10px",
-										fontSize: "30px",
-									}}
-								/>
-							</a>
-							<a
-								href="https://drive.google.com/file/d/1WcYvlFhNcF9DI-MEwoAOi8kSBUl4Abqt/view?usp=sharing"
-								target="_blank"
+								<a href="https://github.com/ystamaritq" target="_blank">
+									<FontAwesomeIcon
+										icon={faGithub}
+										style={{
+											color: "#5E3719",
+											margin: "10px",
+											fontSize: "30px",
+										}}
+									/>
+								</a>
+							</OverlayTrigger>
+
+							<OverlayTrigger
+								placement="bottom"
+								overlay={<Tooltip id="tooltip-linked">Linkedin</Tooltip>}
 							>
-								<FontAwesomeIcon
-									icon={faFilePdf}
-									style={{
-										color: "#5E3719",
-										margin: "10px",
-										fontSize: "30px",
-									}}
-								/>
-							</a>
+								<a
+									href="https://www.linkedin.com/in/yadiratamarit/"
+									target="_blank"
+								>
+									<FontAwesomeIcon
+										icon={faLinkedin}
+										style={{
+											color: "#5E3719",
+											margin: "10px",
+											fontSize: "30px",
+										}}
+									/>
+								</a>
+							</OverlayTrigger>
+							<OverlayTrigger
+								placement="bottom"
+								overlay={<Tooltip id="tooltip-facebook">Facebook</Tooltip>}
+							>
+								<a
+									href="https://www.facebook.com/yadira.tamarit"
+									target="_blank"
+								>
+									<FontAwesomeIcon
+										icon={faFacebook}
+										style={{
+											color: "#5E3719",
+											margin: "10px",
+											fontSize: "30px",
+										}}
+									/>
+								</a>
+							</OverlayTrigger>
+
+							<OverlayTrigger
+								placement="bottom"
+								overlay={<Tooltip id="tooltip-resume">Resume</Tooltip>}
+							>
+								<a
+									href="https://drive.google.com/file/d/1WcYvlFhNcF9DI-MEwoAOi8kSBUl4Abqt/view?usp=sharing"
+									target="_blank"
+								>
+									<FontAwesomeIcon
+										icon={faFilePdf}
+										style={{
+											color: "#5E3719",
+											margin: "10px",
+											fontSize: "30px",
+										}}
+									/>
+								</a>
+							</OverlayTrigger>
 						</div>
 					</Fade>
 				</Col>
