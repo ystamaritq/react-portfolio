@@ -29,7 +29,7 @@
 
 ## Reference Links
 
-Link to _Yadira's Portfolio_ deployed on Heroku - [Yadira's Portfolio Application Live Link](https://yadira-tamarit.herokuapp.com/)
+Link to **Yadira's Portfolio** deployed on Heroku - [Yadira's Portfolio Application Live Link](https://yadira-tamarit.herokuapp.com/)
 
 Link to GitHub Repo used for application development - [Yadira's Portfolio Application GitHub Repo](https://github.com/ystamaritq/react-portfolio)
 
@@ -95,7 +95,3 @@ For `future` development, I would like to incorporate the following `enhancement
 ---
 
 **developed with love by **@ystamaritq\*\*\*\*
-
-```
-
-```
