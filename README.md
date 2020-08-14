@@ -31,7 +31,7 @@
 
 Link to **Yadira's Portfolio** deployed on Heroku - [Yadira's Portfolio Application Live Link](https://yadira-tamarit.herokuapp.com/)
 
-Link to GitHub Repo used for application development - [Yadira's Portfolio Application GitHub Repo](https://github.com/ystamaritq/react-portfolio)
+Link to **GitHub Repo** used for application development - [Yadira's Portfolio Application GitHub Repo](https://github.com/ystamaritq/react-portfolio)
 
 ---
 
