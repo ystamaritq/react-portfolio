@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Nav, Navbar, Image, NavLink } from "react-bootstrap";
+import { Nav, Navbar, Image } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import logo from "../assets/imgs/logo.png";
 
@@ -40,6 +40,17 @@ const NavigationBar = () => {
 							duration={500}
 						>
 							About
+						</Link>
+						<Link
+							className="link"
+							activeClass="active"
+							to="Skills"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={500}
+						>
+							Skills
 						</Link>
 						<Link
 							className="link"

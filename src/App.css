@@ -102,13 +102,15 @@ nav .link:hover {
 	top: 4em;
 }
 
-.about-content h1 {
+.about-content h1,
+.skills h1 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 3em;
 	text-align: left;
 	color: #5e3719;
 	margin-top: 3em;
 }
+
 .about-content p {
 	font-size: 1.4em;
 	text-align: left;
@@ -213,5 +215,10 @@ nav .link:hover {
 
 	.custom-logo {
 		width: 5em;
+	}
+
+	ul.recharts-legend-wrapper {
+		position: relative !important;
+		top: 0 !important;
 	}
 }
