@@ -166,7 +166,7 @@ nav .link:hover {
 .contact {
 	position: relative;
 	top: 20em;
-	text-align: left;
+	text-align: right;
 }
 .contact h1 {
 	font-family: "Montserrat", sans-serif;
@@ -176,14 +176,15 @@ nav .link:hover {
 	margin-top: 2em;
 }
 .amazing-color {
-	color: #721515;
+	color: #6d1616;
 	opacity: 1;
 }
 
 .contact .email {
-	color: #5e3719;
+	color: #371f0d;
 	font-size: 2em;
 }
+
 .contact li {
 	display: inline-block;
 	margin-top: 0;
@@ -200,30 +201,37 @@ nav .link:hover {
 	position: relative;
 	top: 2em;
 	padding: 1em;
+	color: #5b1717;
+	font-weight: bold;
 }
 
 .text-custom {
-	color: #724b4b;
+	color: #885353;
 }
 
 .footer a {
 	text-decoration: none;
-	color: #9f4b4b;
-	font-style: normal;
+	color: #5e3719;
 }
 
-@media screen and (max-width: 411px) {
-	.header-title {
-		font-size: 3em;
+@media screen and (max-width: 600px) {
+	.header-title,
+	.about-content h1,
+	.work .heading,
+	.contact h1,
+	.skills h1 {
+		font-size: 2em;
 		padding: 20px;
+		margin-top: 6em;
 	}
 
 	.custom-logo {
-		width: 5em;
+		width: 4em;
 	}
 
-	ul.recharts-legend-wrapper {
-		position: relative !important;
+	.recharts-legend-wrapper {
+		position: flex !important;
 		top: 0 !important;
+		margin-right: 20em;
 	}
 }
