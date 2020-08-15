@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, OverlayTrigger, Tooltip } from "react-bootstrap";
 
 const Contact = () => {
 	return (
@@ -13,31 +13,34 @@ const Contact = () => {
 				</Fade>
 			</h1>
 			<Fade bottom>
-				<div className="contact-content">
+				<div>
 					<h1>
 						Let’s create your next<br></br>
 						<span className="amazing-color ml-5">experience together</span>
 					</h1>
 				</div>
+				<ul>
+					{data.social.map((link, index) => (
+						<li key={index}>
+							<a target="_blank" rel="noopener noreferrer" href={link.url}>
+								{link.name}
+							</a>
+						</li>
+					))}
+				</ul>
 			</Fade>
 
-			<Row className="footer mb-0">
-				<Col className="col-lg-6 col-sm-12">
-					<span className="text-custom mr-1">developed with love by</span>
-					<a href="mailto:ystamaritq@gmail.com">Yadira Tamarit</a>
-				</Col>
-				<Col className="col-lg-6 col-sm-12">
-					<ul>
-						{data.social.map((link, index) => (
-							<li key={index}>
-								<a target="_blank" rel="noopener noreferrer" href={link.url}>
-									{link.name}
-								</a>
-							</li>
-						))}
-					</ul>
-				</Col>
-			</Row>
+			<div className="footer text-center">
+				<span className="mr-1 text-muted">developed with love by</span>
+				<OverlayTrigger
+					placement="bottom"
+					overlay={<Tooltip id="tooltip-email-footer">Contact Me</Tooltip>}
+				>
+					<a href="mailto:ystamaritq@gmail.com" className="text-muted">
+						Yadira Tamarit
+					</a>
+				</OverlayTrigger>
+			</div>
 		</Container>
 	);
 };
