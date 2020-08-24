@@ -119,7 +119,7 @@ export default [
 		service: "GitHub Repo",
 		imageSrc: proj12image,
 		url: "https://github.com/ystamaritq/workout-tracker",
-		urldeploy: "https://workout-tracker-platform.herokuapp.com/",
+		urldeploy: "https://workout-tracker-platform.herokuapp.com",
 		deploy: "Deploy Link",
 	},
 ];
