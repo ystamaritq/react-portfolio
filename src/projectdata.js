@@ -58,6 +58,9 @@ export default [
 		url: "https://github.com/ystamaritq/note-taker",
 		urldeploy: "https://note-taker-yad.herokuapp.com/",
 		deploy: "Deploy Link",
+		description:
+			"An application that can be used to write, save, and delete notes. Use express backend and save and retrieve note data from a JSON file.",
+		tecnologies: "Node - Express",
 	},
 	{
 		id: 5,
@@ -67,6 +70,9 @@ export default [
 		url: "https://github.com/ystamaritq/team-profile-generator",
 		urldeploy: "https://github.com/ystamaritq/team-profile-generator",
 		deploy: "Deploy Link",
+		description:
+			"A software engineering team generator command line application (CLI). Info about the team manager and team members.",
+		tecnologies: "Inquirer - Jest - Node ",
 	},
 	{
 		id: 6,
@@ -77,6 +83,9 @@ export default [
 		urldeploy:
 			"https://drive.google.com/drive/folders/1qWR2TRJLYbwFE7C2rhiDDgvfqxLz2mnz",
 		deploy: "Demo Link",
+		description:
+			"A The command-line application for managing a company's employees using node, inquirer, and MySQL.",
+		tecnologies: "Inquirer - MySQL - Node",
 	},
 	{
 		id: 7,
