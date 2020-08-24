@@ -8,6 +8,8 @@ import proj7image from "./assets/imgs/projects/project7.png";
 import proj8image from "./assets/imgs/projects/project8.png";
 import proj9image from "./assets/imgs/projects/project9.png";
 import proj10image from "./assets/imgs/projects/project10.png";
+import proj11image from "./assets/imgs/projects/project11.png";
+import proj12image from "./assets/imgs/projects/project12.png";
 
 export default [
 	{
@@ -30,6 +32,15 @@ export default [
 	},
 	{
 		id: 3,
+		title: "Employee Directory",
+		service: "GitHub Repo",
+		imageSrc: proj11image,
+		url: "https://github.com/ystamaritq/employee-directory",
+		urldeploy: "https://employee-directory-platform.herokuapp.com/",
+		deploy: "Deploy Link",
+	},
+	{
+		id: 4,
 		title: "Note Taker",
 		service: "GitHub Repo",
 		imageSrc: proj8image,
@@ -38,7 +49,7 @@ export default [
 		deploy: "Deploy Link",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Team Generator",
 		service: "GitHub Repo",
 		imageSrc: proj7image,
@@ -47,7 +58,7 @@ export default [
 		deploy: "Deploy Link",
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Employee Tracker",
 		service: "GitHub Repo",
 		imageSrc: proj9image,
@@ -57,7 +68,7 @@ export default [
 		deploy: "Demo Link",
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "Readme Generator",
 		service: "GitHub Repo",
 		imageSrc: proj6image,
@@ -67,7 +78,7 @@ export default [
 	},
 
 	{
-		id: 7,
+		id: 8,
 		title: "Code Quiz",
 		service: "GitHub Repo",
 		imageSrc: proj3image,
@@ -76,7 +87,7 @@ export default [
 		deploy: "Deploy Link",
 	},
 	{
-		id: 8,
+		id: 9,
 		title: "Weather Dashboard",
 		service: "GitHub Repo",
 		imageSrc: proj4image,
@@ -85,7 +96,7 @@ export default [
 		deploy: "Deploy Link",
 	},
 	{
-		id: 9,
+		id: 10,
 		title: "Work Day Scheduler",
 		service: "GitHub Repo",
 		imageSrc: proj2image,
@@ -94,12 +105,21 @@ export default [
 		deploy: "Deploy Link",
 	},
 	{
-		id: 10,
+		id: 11,
 		title: "Password Generator",
 		service: "GitHub Repo",
 		imageSrc: proj1image,
 		url: "https://github.com/ystamaritq/password-generator",
 		urldeploy: "https://ystamaritq.github.io/password-generator",
+		deploy: "Deploy Link",
+	},
+	{
+		id: 12,
+		title: "Workout Tracker",
+		service: "GitHub Repo",
+		imageSrc: proj12image,
+		url: "https://github.com/ystamaritq/workout-tracker",
+		urldeploy: "https://workout-tracker-platform.herokuapp.com/",
 		deploy: "Deploy Link",
 	},
 ];
