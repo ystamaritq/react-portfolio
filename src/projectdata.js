@@ -20,6 +20,10 @@ export default [
 		url: "https://github.com/wedding-planner-app/wedding-planner",
 		urldeploy: "https://wedding-planner-platform.herokuapp.com/",
 		deploy: "Deploy Link",
+		description:
+			"This full-stack web application will allow users to create a profile under which they can manage one or more wedding event.",
+		tecnologies:
+			"React - Node - MySQL - Postgres - Express - Auth0 - Heroku - Axious",
 	},
 	{
 		id: 2,
@@ -42,6 +46,9 @@ export default [
 		url: "https://github.com/ystamaritq/employee-directory",
 		urldeploy: "https://employee-directory-platform.herokuapp.com/",
 		deploy: "Deploy Link",
+		description:
+			"An employee or manager would benefit greatly from being able to view able to filter and sort employees by name",
+		tecnologies: "React - Axious - Jest",
 	},
 	{
 		id: 4,
