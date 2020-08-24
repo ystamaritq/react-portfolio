@@ -213,7 +213,15 @@ nav .link:hover {
 	text-decoration: none;
 	color: #5e3719;
 }
-
+.card-text-style {
+	font-size: 13px;
+	color: rgb(88, 63, 45);
+}
+.card-tech-style {
+	font-size: 13px;
+	color: rgb(78, 20, 32);
+	color: rgb(88, 63, 45);
+}
 @media screen and (max-width: 600px) {
 	.header-title,
 	.about-content h1,

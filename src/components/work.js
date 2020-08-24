@@ -23,6 +23,8 @@ const Work = () => {
 							url={p.url}
 							urldeploy={p.urldeploy}
 							deploy={p.deploy}
+							description={p.description}
+							tecnologies={p.tecnologies}
 						></Project>
 					))}
 				</div>

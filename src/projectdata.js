@@ -29,6 +29,10 @@ export default [
 		url: "https://github.com/CB-Group-6-Project-1/travel-board",
 		urldeploy: "https://cb-group-6-project-1.github.io/travel-board/",
 		deploy: "Deploy Link",
+		description:
+			"An easy to use, mobile first web application for browsing popular travel destinations and planning your perfect",
+		tecnologies:
+			"HTML - CSS - JavaScript - AJAX - Jquery - Pure - Materialize - Moment",
 	},
 	{
 		id: 3,
