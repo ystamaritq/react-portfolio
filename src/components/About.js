@@ -109,7 +109,7 @@ const About = () => {
 								overlay={<Tooltip id="tooltip-resume">Resume</Tooltip>}
 							>
 								<a
-									href="https://drive.google.com/file/d/1WcYvlFhNcF9DI-MEwoAOi8kSBUl4Abqt/view?usp=sharing"
+									href="https://drive.google.com/file/d/1UwQ3diNlLgHsAhO5IO9r_siK5DU1ArPe/view?usp=sharing"
 									target="_blank"
 								>
 									<FontAwesomeIcon
