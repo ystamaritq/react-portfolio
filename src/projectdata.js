@@ -95,6 +95,9 @@ export default [
 		url: "https://github.com/ystamaritq/readme-generator",
 		urldeploy: "https://www.youtube.com/watch?v=4rH2Fp_MFtM",
 		deploy: "Demo Link",
+		description:
+			"A command-line application that dynamically generates a README.md from a user's input.",
+		tecnologies: "Inquirer - Node -Javascript",
 	},
 
 	{
@@ -105,6 +108,9 @@ export default [
 		url: "https://github.com/ystamaritq/code-quiz",
 		urldeploy: "https://ystamaritq.github.io/code-quiz/",
 		deploy: "Deploy Link",
+		description:
+			"This project hosts the source code for my Java Script Code Quiz. Timed quiz JavaScript fundamentals that stores high scores.",
+		tecnologies: "Bootstrap - Javascript",
 	},
 	{
 		id: 9,
@@ -114,6 +120,9 @@ export default [
 		url: "https://ystamaritq.github.io/weather-dashboard/",
 		urldeploy: "https://ystamaritq.github.io/weather-dashboard",
 		deploy: "Deploy Link",
+		description:
+			"This project hosts the source code for a Weather Dashboard. Display the weather of the city select by the user and the forecast days weather condition.",
+		tecnologies: "Bootstrap - Javascript - Jquery",
 	},
 	{
 		id: 10,
@@ -123,6 +132,9 @@ export default [
 		url: "https://github.com/ystamaritq/work-day-scheduler",
 		urldeploy: "https://ystamaritq.github.io/work-day-scheduler/",
 		deploy: "Deploy Link",
+		description:
+			"A simple calendar application that allows the user to save events for each hour of the day.",
+		tecnologies: "Bootstrap - Javascript - Jquery - Moment",
 	},
 	{
 		id: 11,
@@ -132,6 +144,9 @@ export default [
 		url: "https://github.com/ystamaritq/password-generator",
 		urldeploy: "https://ystamaritq.github.io/password-generator",
 		deploy: "Deploy Link",
+		description:
+			"This project allows users to generate a secure password that meets certain criteria",
+		tecnologies: "Bootstrap - Javascript",
 	},
 	{
 		id: 12,
@@ -141,5 +156,8 @@ export default [
 		url: "https://github.com/ystamaritq/workout-tracker",
 		urldeploy: "https://workout-tracker-platform.herokuapp.com",
 		deploy: "Deploy Link",
+		description:
+			"A consumer will reach their fitness goals quicker when they track their workout progress",
+		tecnologies: "MongoDB - Javascript - morgan - dotenv - express - mongoose",
 	},
 ];
