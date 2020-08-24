@@ -20,6 +20,10 @@ export default [
 		url: "https://github.com/wedding-planner-app/wedding-planner",
 		urldeploy: "https://wedding-planner-platform.herokuapp.com/",
 		deploy: "Deploy Link",
+		description:
+			"This full-stack web application will allow users to create a profile under which they can manage one or more wedding event.",
+		tecnologies:
+			"React - Node - MySQL - Postgres - Express - Auth0 - Heroku - Axious",
 	},
 	{
 		id: 2,
@@ -29,6 +33,10 @@ export default [
 		url: "https://github.com/CB-Group-6-Project-1/travel-board",
 		urldeploy: "https://cb-group-6-project-1.github.io/travel-board/",
 		deploy: "Deploy Link",
+		description:
+			"An easy to use, mobile first web application for browsing popular travel destinations and planning your perfect",
+		tecnologies:
+			"HTML - CSS - JavaScript - AJAX - Jquery - Pure - Materialize - Moment",
 	},
 	{
 		id: 3,
@@ -38,6 +46,9 @@ export default [
 		url: "https://github.com/ystamaritq/employee-directory",
 		urldeploy: "https://employee-directory-platform.herokuapp.com/",
 		deploy: "Deploy Link",
+		description:
+			"An employee or manager would benefit greatly from being able to view able to filter and sort employees by name",
+		tecnologies: "React - Axious - Jest",
 	},
 	{
 		id: 4,
@@ -47,6 +58,9 @@ export default [
 		url: "https://github.com/ystamaritq/note-taker",
 		urldeploy: "https://note-taker-yad.herokuapp.com/",
 		deploy: "Deploy Link",
+		description:
+			"An application that can be used to write, save, and delete notes. Use express backend and save and retrieve note data from a JSON file.",
+		tecnologies: "Node - Express",
 	},
 	{
 		id: 5,
@@ -56,6 +70,9 @@ export default [
 		url: "https://github.com/ystamaritq/team-profile-generator",
 		urldeploy: "https://github.com/ystamaritq/team-profile-generator",
 		deploy: "Deploy Link",
+		description:
+			"A software engineering team generator command line application (CLI). Info about the team manager and team members.",
+		tecnologies: "Inquirer - Jest - Node ",
 	},
 	{
 		id: 6,
@@ -66,6 +83,9 @@ export default [
 		urldeploy:
 			"https://drive.google.com/drive/folders/1qWR2TRJLYbwFE7C2rhiDDgvfqxLz2mnz",
 		deploy: "Demo Link",
+		description:
+			"A The command-line application for managing a company's employees using node, inquirer, and MySQL.",
+		tecnologies: "Inquirer - MySQL - Node",
 	},
 	{
 		id: 7,
@@ -75,6 +95,9 @@ export default [
 		url: "https://github.com/ystamaritq/readme-generator",
 		urldeploy: "https://www.youtube.com/watch?v=4rH2Fp_MFtM",
 		deploy: "Demo Link",
+		description:
+			"A command-line application that dynamically generates a README.md from a user's input.",
+		tecnologies: "Inquirer - Node -Javascript",
 	},
 
 	{
@@ -85,6 +108,9 @@ export default [
 		url: "https://github.com/ystamaritq/code-quiz",
 		urldeploy: "https://ystamaritq.github.io/code-quiz/",
 		deploy: "Deploy Link",
+		description:
+			"This project hosts the source code for my Java Script Code Quiz. Timed quiz JavaScript fundamentals that stores high scores.",
+		tecnologies: "Bootstrap - Javascript",
 	},
 	{
 		id: 9,
@@ -94,6 +120,9 @@ export default [
 		url: "https://ystamaritq.github.io/weather-dashboard/",
 		urldeploy: "https://ystamaritq.github.io/weather-dashboard",
 		deploy: "Deploy Link",
+		description:
+			"This project hosts the source code for a Weather Dashboard. Display the weather of the city select by the user and the forecast days weather condition.",
+		tecnologies: "Bootstrap - Javascript - Jquery",
 	},
 	{
 		id: 10,
@@ -103,6 +132,9 @@ export default [
 		url: "https://github.com/ystamaritq/work-day-scheduler",
 		urldeploy: "https://ystamaritq.github.io/work-day-scheduler/",
 		deploy: "Deploy Link",
+		description:
+			"A simple calendar application that allows the user to save events for each hour of the day.",
+		tecnologies: "Bootstrap - Javascript - Jquery - Moment",
 	},
 	{
 		id: 11,
@@ -112,6 +144,9 @@ export default [
 		url: "https://github.com/ystamaritq/password-generator",
 		urldeploy: "https://ystamaritq.github.io/password-generator",
 		deploy: "Deploy Link",
+		description:
+			"This project allows users to generate a secure password that meets certain criteria",
+		tecnologies: "Bootstrap - Javascript",
 	},
 	{
 		id: 12,
@@ -121,5 +156,8 @@ export default [
 		url: "https://github.com/ystamaritq/workout-tracker",
 		urldeploy: "https://workout-tracker-platform.herokuapp.com",
 		deploy: "Deploy Link",
+		description:
+			"A consumer will reach their fitness goals quicker when they track their workout progress",
+		tecnologies: "MongoDB - Javascript - morgan - dotenv - express - mongoose",
 	},
 ];

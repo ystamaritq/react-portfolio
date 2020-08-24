@@ -13,6 +13,9 @@ const Project = (props) => {
 							<Card.Title className="project-title-card">
 								{props.title}
 							</Card.Title>
+							<Card.Text className="card-text-style mt-1 m-auto">
+								{props.description}
+							</Card.Text>
 						</Card.Body>
 						<Card.Body>
 							<Card.Link href={props.url} target="_blank" className="proj-link">
@@ -25,6 +28,10 @@ const Project = (props) => {
 							>
 								{props.deploy}
 							</Card.Link>
+							<Card.Text className="card-tech-style mt-2 m-auto">
+								<hr />
+								{props.tecnologies}
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Fade>
