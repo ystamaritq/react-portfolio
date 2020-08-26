@@ -8,12 +8,14 @@ const Project = (props) => {
 			<Col className="col-sm-12 col-md-6 col-lg-6 mb-3 p-4 my-3">
 				<Fade bottom>
 					<Card className="shadow-lg card-hover">
-						<Card.Img variant="top" src={props.imageSrc} />
+						<Card.Link href={props.url} target="_blank">
+							<Card.Img variant="top" src={props.imageSrc} />
+						</Card.Link>
 						<Card.Body>
 							<Card.Title className="project-title-card">
 								{props.title}
 							</Card.Title>
-							<Card.Text className="card-text-style mt-1 m-auto">
+							<Card.Text className="card-text-style mt-1 m-auto ">
 								{props.description}
 							</Card.Text>
 						</Card.Body>
