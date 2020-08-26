@@ -104,12 +104,11 @@ nav .link:hover {
 }
 .card-hover:hover {
 	opacity: 90%;
-	width: 104%;
+
+	border-top-style: 4px;
 	cursor: pointer;
 	border: brown 3px solid;
-	text-decoration: wavy;
-	border-image: round;
-	box-shadow: dimgray;
+	border-bottom-style: 60px;
 }
 .about-content h1,
 .skills h1 {
