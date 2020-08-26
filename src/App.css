@@ -110,6 +110,11 @@ nav .link:hover {
 	border: brown 3px solid;
 	border-bottom-style: 60px;
 }
+
+.card-text-style:hover {
+	color: rgb(27, 20, 20);
+	font-weight: bolder;
+}
 .about-content h1,
 .skills h1 {
 	font-family: "Montserrat", sans-serif;
