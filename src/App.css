@@ -102,7 +102,15 @@ nav .link:hover {
 	top: 6em;
 	margin-bottom: 5em;
 }
-
+.card-hover:hover {
+	opacity: 90%;
+	width: 104%;
+	cursor: pointer;
+	border: brown 3px solid;
+	text-decoration: wavy;
+	border-image: round;
+	box-shadow: dimgray;
+}
 .about-content h1,
 .skills h1 {
 	font-family: "Montserrat", sans-serif;

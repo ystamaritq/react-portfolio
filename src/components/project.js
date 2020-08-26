@@ -7,7 +7,7 @@ const Project = (props) => {
 		return (
 			<Col className="col-sm-12 col-md-6 col-lg-6 mb-3 p-4 my-3">
 				<Fade bottom>
-					<Card className="shadow-lg">
+					<Card className="shadow-lg card-hover">
 						<Card.Img variant="top" src={props.imageSrc} />
 						<Card.Body>
 							<Card.Title className="project-title-card">
