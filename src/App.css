@@ -64,6 +64,7 @@ nav .link {
 nav .link:hover {
 	opacity: 1;
 	color: #721515;
+	text-shadow: 0 0 1px rgb(70, 25, 25), 0 0 3px rgb(36, 25, 25);
 }
 
 .active {
@@ -102,16 +103,20 @@ nav .link:hover {
 	top: 6em;
 	margin-bottom: 5em;
 }
+
+.header-title:hover {
+	text-shadow: 0 0 3px rgb(189, 132, 132), 0 0 5px rgb(36, 25, 25);
+}
+
 .card-hover:hover {
 	opacity: 90%;
-
 	border-top-style: 4px;
 	cursor: pointer;
 	border: brown 3px solid;
 	border-bottom-style: 60px;
 	transform: scale(1.05);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 	transition: 0.5s ease;
+	box-shadow: 0 17px 18px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-text-style:hover {
