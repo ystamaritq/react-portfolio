@@ -19,6 +19,7 @@ const NavigationBar = () => {
 	return (
 		<Fade bottom cascade>
 			<Navbar
+				collapseOnSelect
 				onToggle={setNavExpanded}
 				expanded={navExpanded}
 				expand="md"

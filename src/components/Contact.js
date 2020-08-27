@@ -1,9 +1,24 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import data from "../yourdata";
 import { Container, OverlayTrigger, Tooltip } from "react-bootstrap";
 
 const Contact = () => {
+	const contactData = [
+		{
+			name: "Github",
+			url: "https://github.com/ystamaritq",
+		},
+		{
+			name: "LinkedIn",
+			url: "https://www.linkedin.com/in/yadiratamarit/",
+		},
+
+		{
+			name: "Email",
+			url: "mailto:ystamaritq@gmail.com",
+		},
+	];
+
 	return (
 		<Container className="py-5">
 			<h1>
@@ -20,7 +35,7 @@ const Contact = () => {
 					</h1>
 				</div>
 				<ul>
-					{data.social.map((link, index) => (
+					{contactData.map((link, index) => (
 						<li key={index}>
 							<a target="_blank" rel="noopener noreferrer" href={link.url}>
 								{link.name}
@@ -29,18 +44,6 @@ const Contact = () => {
 					))}
 				</ul>
 			</Fade>
-
-			<div className="footer text-center">
-				<span className="mr-1 text-muted">developed with love by</span>
-				<OverlayTrigger
-					placement="bottom"
-					overlay={<Tooltip id="tooltip-email-footer">Contact Me</Tooltip>}
-				>
-					<a href="mailto:ystamaritq@gmail.com" className="text-muted">
-						Yadira Tamarit
-					</a>
-				</OverlayTrigger>
-			</div>
 		</Container>
 	);
 };
