@@ -85,24 +85,6 @@ const About = () => {
 									/>
 								</a>
 							</OverlayTrigger>
-							<OverlayTrigger
-								placement="bottom"
-								overlay={<Tooltip id="tooltip-facebook">Facebook</Tooltip>}
-							>
-								<a
-									href="https://www.facebook.com/yadira.tamarit"
-									target="_blank"
-								>
-									<FontAwesomeIcon
-										icon={faFacebook}
-										style={{
-											color: "#5E3719",
-											margin: "10px",
-											fontSize: "30px",
-										}}
-									/>
-								</a>
-							</OverlayTrigger>
 
 							<OverlayTrigger
 								placement="bottom"
