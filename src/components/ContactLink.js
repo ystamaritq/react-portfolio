@@ -23,7 +23,3 @@ const ContactLink = ({ name, url, icon }) => {
 };
 
 export default ContactLink;
-
-// Github
-// "https://github.com/ystamaritq"
-// faGithub
