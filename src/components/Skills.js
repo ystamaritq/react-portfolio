@@ -87,44 +87,42 @@ const style = {
 };
 
 const Skills = () => {
-	{
-		return (
-			<Container className="skills">
-				<Fade bottom>
-					<h1 className="heading mb-2">
-						<Fade bottom cascade>
-							Skills
-						</Fade>
-					</h1>
-				</Fade>
-				<Fade bottom>
-					<ResponsiveContainer height={700}>
-						<RadialBarChart data={data}>
-							<Legend
-								iconSize={20}
-								layout="vertical"
-								verticalAlign="middle"
-								hizontalAlign="end"
-								wrapperStyle={style}
-							/>
-							<RadialBar
-								innerRadius={100}
-								minAngle={25}
-								label={{
-									position: "insideStart",
-									fill: "#fff",
-									fontWeight: "bolder",
-								}}
-								background
-								clockWise
-								dataKey="uv"
-							/>
-						</RadialBarChart>
-					</ResponsiveContainer>
-				</Fade>
-			</Container>
-		);
-	}
+	return (
+		<Container className="skills">
+			<Fade bottom>
+				<h1 className="heading mb-2">
+					<Fade bottom cascade>
+						Skills
+					</Fade>
+				</h1>
+			</Fade>
+			<Fade bottom>
+				<ResponsiveContainer height={700}>
+					<RadialBarChart data={data}>
+						<Legend
+							iconSize={20}
+							layout="vertical"
+							verticalAlign="middle"
+							hizontalAlign="end"
+							wrapperStyle={style}
+						/>
+						<RadialBar
+							innerRadius={100}
+							minAngle={25}
+							label={{
+								position: "insideStart",
+								fill: "#fff",
+								fontWeight: "bolder",
+							}}
+							background
+							clockWise
+							dataKey="uv"
+						/>
+					</RadialBarChart>
+				</ResponsiveContainer>
+			</Fade>
+		</Container>
+	);
 };
 
 export default Skills;

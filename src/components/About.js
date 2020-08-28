@@ -1,22 +1,32 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import pic from ".././assets/imgs/pic.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faGithub,
-	faLinkedin,
-	faFacebook,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import {
-	Container,
-	Col,
-	Image,
-	OverlayTrigger,
-	Tooltip,
-} from "react-bootstrap";
+import { Container, Col, Image } from "react-bootstrap";
+import ContactLink from "./ContactLink";
 
 const About = () => {
+	const aboutData = [
+		{
+			name: "Github",
+			url: "https://github.com/ystamaritq",
+			icon: faGithub,
+		},
+		{
+			name: "LinkedIn",
+			url: "https://www.linkedin.com/in/yadiratamarit/",
+			icon: faLinkedin,
+		},
+
+		{
+			name: "Resume",
+			url:
+				"https://drive.google.com/file/d/1UwQ3diNlLgHsAhO5IO9r_siK5DU1ArPe/view?usp=sharing",
+			icon: faFilePdf,
+		},
+	];
+
 	return (
 		<Container className="py-5">
 			<div className="about-content d-sm-block d-lg-flex flex-lg-wrap">
@@ -51,59 +61,9 @@ const About = () => {
 							career, please reference the provided links below:
 						</p>
 						<div>
-							<OverlayTrigger
-								placement="bottom"
-								overlay={<Tooltip id="tooltip-github">Github</Tooltip>}
-							>
-								<a href="https://github.com/ystamaritq" target="_blank">
-									<FontAwesomeIcon
-										icon={faGithub}
-										style={{
-											color: "#5E3719",
-											margin: "10px",
-											fontSize: "30px",
-										}}
-									/>
-								</a>
-							</OverlayTrigger>
-
-							<OverlayTrigger
-								placement="bottom"
-								overlay={<Tooltip id="tooltip-linked">Linkedin</Tooltip>}
-							>
-								<a
-									href="https://www.linkedin.com/in/yadiratamarit/"
-									target="_blank"
-								>
-									<FontAwesomeIcon
-										icon={faLinkedin}
-										style={{
-											color: "#5E3719",
-											margin: "10px",
-											fontSize: "30px",
-										}}
-									/>
-								</a>
-							</OverlayTrigger>
-
-							<OverlayTrigger
-								placement="bottom"
-								overlay={<Tooltip id="tooltip-resume">Resume</Tooltip>}
-							>
-								<a
-									href="https://drive.google.com/file/d/1UwQ3diNlLgHsAhO5IO9r_siK5DU1ArPe/view?usp=sharing"
-									target="_blank"
-								>
-									<FontAwesomeIcon
-										icon={faFilePdf}
-										style={{
-											color: "#5E3719",
-											margin: "10px",
-											fontSize: "30px",
-										}}
-									/>
-								</a>
-							</OverlayTrigger>
+							{aboutData.map((d) => (
+								<ContactLink name={d.name} url={d.url} icon={d.icon} />
+							))}
 						</div>
 					</Fade>
 				</Col>
