@@ -21,9 +21,8 @@ export default [
 		urldeploy: "https://wedding-planner-platform.herokuapp.com/",
 		deploy: "Deploy Link",
 		description:
-			"This full-stack web application will allow users to create a profile under which they can manage one or more wedding event.",
-		tecnologies:
-			"React - Node - MySQL - Postgres - Express - Auth0 - Heroku - Axious",
+			"This full-stack web application will allow users to plan and manage wedding events.",
+		tecnologies: "Node - React - Postgres - Express - Auth0 - Heroku",
 	},
 	{
 		id: 2,
@@ -34,9 +33,9 @@ export default [
 		urldeploy: "https://cb-group-6-project-1.github.io/travel-board/",
 		deploy: "Deploy Link",
 		description:
-			"An easy to use, mobile first web application for browsing popular travel destinations and planning your perfect",
+			"An easy to use, mobile-first web application for browsing popular travel destinations and planning your perfect",
 		tecnologies:
-			"HTML - CSS - JavaScript - AJAX - Jquery - Pure - Materialize - Moment",
+			"HTML - CSS - JavaScript - AJAX - Jquery - Pure CSS - Materialize - Moment",
 	},
 	{
 		id: 3,

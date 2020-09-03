@@ -40,10 +40,10 @@ const About = () => {
 					</Fade>
 					<Fade bottom>
 						<p>
-							I’m originally from Cuba. I’m a mom of two wonderful boys.I have a
-							Bachelor Degree in Computer Science. I am passionate about coding,
-							solving problems and UI design. In order to further expand my
-							coding expertise and learn new web technologies, I am currently
+							I’m originally from Cuba. I’m a mom of two wonderful boys. I have
+							a Bachelor Degree in Computer Science. I am passionate about
+							coding, solving problems and UI design. In order to further expand
+							my coding expertise and learn new web technologies, I am currently
 							enrolled in the Full Stack Developer Coding Bootcamp, at The
 							University of Texas at Austin.
 						</p>
@@ -55,10 +55,10 @@ const About = () => {
 							hard-worker, highly organized and able to work under pressure.
 						</p>
 						<p>
-							I’m open to learn when is need it. I studied Computer Sciences in
-							(Universidad de las Ciencias Informaticas) located in Havana, Cuba
-							from (2003 - 2008). For more information about my professional
-							career, please reference the provided links below:
+							I’m open to learning as needed. I studied Computer Sciences in
+							(Universidad de las Ciencias Informaticas) in Havana, Cuba from
+							(2003 - 2008). For more information about my professional career,
+							please reference the provided links below:
 						</p>
 						<div>
 							{aboutData.map((d) => (
