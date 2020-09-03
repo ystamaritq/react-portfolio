@@ -22,7 +22,7 @@ const About = () => {
 		{
 			name: "Resume",
 			url:
-				"https://drive.google.com/file/d/1khz1qhtfKxOFxP05zl59-KN3whwiDDgU/view?usp=sharing",
+				"https://drive.google.com/file/d/1_-qA8xke1fmzyQdXl6PRYnznlnxSXDhF/view?usp=sharing",
 			icon: faFilePdf,
 		},
 	];
