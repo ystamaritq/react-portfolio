@@ -159,4 +159,16 @@ export default [
 			"A consumer will reach their fitness goals quicker when they track their workout progress",
 		tecnologies: "MongoDB - Javascript - morgan - dotenv - express - mongoose",
 	},
+	{
+		id: 13,
+		title: "Google Books",
+		service: "GitHub Repo",
+		imageSrc: proj13image,
+		url: "https://github.com/ystamaritq/books-search",
+		urldeploy: "https://books-search-platform.herokuapp.com",
+		deploy: "Deploy Link",
+		description:
+			"Google Books Platform allows the user search and view saved google books",
+		tecnologies: "MERN stack- MongoDB, Express, React, and Node.js",
+	},
 ];
