@@ -10,6 +10,7 @@ import proj9image from "./assets/imgs/projects/project9.png";
 import proj10image from "./assets/imgs/projects/project10.png";
 import proj11image from "./assets/imgs/projects/project11.png";
 import proj12image from "./assets/imgs/projects/project12.png";
+import proj13image from "./assets/imgs/projects/project13.png";
 
 export default [
 	{
