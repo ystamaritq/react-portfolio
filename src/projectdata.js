@@ -11,10 +11,24 @@ import proj10image from "./assets/imgs/projects/project10.png";
 import proj11image from "./assets/imgs/projects/project11.png";
 import proj12image from "./assets/imgs/projects/project12.png";
 import proj13image from "./assets/imgs/projects/project13.png";
+import proj14image from "./assets/imgs/projects/project14.png";
 
 export default [
 	{
 		id: 1,
+		title: "Secret Santa",
+		service: "GitHub Repo",
+		imageSrc: proj14image,
+		url: "https://github.com/Holiday-Secret-Santa/Secret-Santa-App",
+		urldeploy: "https://secret-santa-platform.herokuapp.com/",
+		deploy: "Deploy Link",
+		description:
+			"This full-stack web application will allow users to orchestrate the holiday fan-favorite game Secret Santa!",
+		tecnologies:
+			"Node - React - Graphql - Express - Auth0 - Heroku - MySql - Ant Design",
+	},
+	{
+		id: 2,
 		title: "Wedding Planner",
 		service: "GitHub Repo",
 		imageSrc: proj10image,
@@ -26,7 +40,7 @@ export default [
 		tecnologies: "Node - React - Postgres - Express - Auth0 - Heroku",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Travel Board",
 		service: "GitHub Repo",
 		imageSrc: proj5image,
@@ -39,7 +53,7 @@ export default [
 			"HTML - CSS - JavaScript - AJAX - Jquery - Pure CSS - Materialize - Moment",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Employee Directory",
 		service: "GitHub Repo",
 		imageSrc: proj11image,
@@ -51,7 +65,7 @@ export default [
 		tecnologies: "React - Axious - Jest",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Note Taker",
 		service: "GitHub Repo",
 		imageSrc: proj8image,
@@ -63,7 +77,7 @@ export default [
 		tecnologies: "Node - Express",
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Team Generator",
 		service: "GitHub Repo",
 		imageSrc: proj7image,
@@ -75,7 +89,7 @@ export default [
 		tecnologies: "Inquirer - Jest - Node ",
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "Employee Tracker",
 		service: "GitHub Repo",
 		imageSrc: proj9image,
@@ -88,7 +102,7 @@ export default [
 		tecnologies: "Inquirer - MySQL - Node",
 	},
 	{
-		id: 7,
+		id: 8,
 		title: "Readme Generator",
 		service: "GitHub Repo",
 		imageSrc: proj6image,
@@ -101,7 +115,7 @@ export default [
 	},
 
 	{
-		id: 8,
+		id: 9,
 		title: "Code Quiz",
 		service: "GitHub Repo",
 		imageSrc: proj3image,
@@ -113,7 +127,7 @@ export default [
 		tecnologies: "Bootstrap - Javascript",
 	},
 	{
-		id: 9,
+		id: 10,
 		title: "Weather Dashboard",
 		service: "GitHub Repo",
 		imageSrc: proj4image,
@@ -125,7 +139,7 @@ export default [
 		tecnologies: "Bootstrap - Javascript - Jquery",
 	},
 	{
-		id: 10,
+		id: 11,
 		title: "Work Day Scheduler",
 		service: "GitHub Repo",
 		imageSrc: proj2image,
@@ -137,7 +151,7 @@ export default [
 		tecnologies: "Bootstrap - Javascript - Jquery - Moment",
 	},
 	{
-		id: 11,
+		id: 12,
 		title: "Password Generator",
 		service: "GitHub Repo",
 		imageSrc: proj1image,
@@ -149,7 +163,7 @@ export default [
 		tecnologies: "Bootstrap - Javascript",
 	},
 	{
-		id: 12,
+		id: 13,
 		title: "Workout Tracker",
 		service: "GitHub Repo",
 		imageSrc: proj12image,
@@ -161,7 +175,7 @@ export default [
 		tecnologies: "MongoDB - Javascript - morgan - dotenv - express - mongoose",
 	},
 	{
-		id: 13,
+		id: 14,
 		title: "Google Books",
 		service: "GitHub Repo",
 		imageSrc: proj13image,
