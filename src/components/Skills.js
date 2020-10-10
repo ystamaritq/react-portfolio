@@ -9,18 +9,18 @@ const skillsData = [
 	{ name: "node", color: "#6d6875" },
 	{ name: "express", color: "#f77f00" },
 	{ name: "jquery", color: "#003049" },
-	{ name: "apis", color: "#fca311" },
+	{ name: "rest-apis", color: "#6d597a" },
 	{ name: "mongodb", color: "#14213d" },
 	{ name: "postgres", color: "#432818" },
 	{ name: "mysql", color: "#83944C" },
 	{ name: "testing", color: "#4361ee" },
-	{ name: "bootstrap", color: "#e0b1cb" },
+	{ name: "bootstrap", color: "#023047" },
 	{ name: "pure", color: "#3e1f47" },
 	{ name: "ui/ux", color: "#333533" },
-	{ name: "materialize", color: "#7f7f7f" },
+	{ name: "materialize", color: "#5e60ce" },
 	{ name: "git", color: "#5e503f" },
 	{ name: "graphql", color: "#7fb800" },
-	{ name: "antd", color: "#abc4ff" },
+	{ name: "antd", color: "#b5838d" },
 ];
 
 const Skills = () => {
@@ -34,20 +34,22 @@ const Skills = () => {
 				</h1>
 			</Fade>
 			<Fade bottom>
-				<div className="d-flex align-content-start flex-wrap">
+				<div className="d-flex align-content-center flex-wrap">
 					{skillsData.map((skill, index) => (
 						<span
 							key={index}
 							style={{
-								borderRadius: "12px",
+								borderRadius: "28px",
 								background: skill.color,
 								padding: "12px",
 								width: "100px",
-								marginRight: "10px",
+								marginRight: "20px",
 								height: "50px",
-								marginBottom: "10px",
+								marginBottom: "20px",
 								textAlign: "center",
 								color: "white",
+								fontWeight: "bold",
+								boxShadow: "10px 10px 5px grey",
 							}}
 						>
 							{skill.name}
