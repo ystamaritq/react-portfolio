@@ -50,108 +50,12 @@ const Skills = () => {
 								color: "white",
 								fontWeight: "bold",
 								boxShadow: "10px 10px 5px grey",
+								cursor: "pointer",
 							}}
 						>
 							{skill.name}
 						</span>
 					))}
-
-					{/* <span
-						style={{
-							borderRadius: "20px",
-							background: "#73AD21",
-							padding: "2px",
-							width: "100px",
-							marginRight: "10px",
-							height: "50px",
-						}}
-					>
-						Html
-					</span>
-					<span
-						style={{
-							borderRadius: "20px",
-							background: "#73AD21",
-							padding: "2px",
-							width: "100px",
-							marginRight: "10px",
-							height: "50px",
-						}}
-					>
-						Html
-					</span>
-					<span
-						style={{
-							borderRadius: "20px",
-							background: "#73AD21",
-							padding: "2px",
-							width: "100px",
-							marginRight: "10px",
-							height: "50px",
-						}}
-					>
-						Html
-					</span>
-					<span
-						style={{
-							borderRadius: "20px",
-							background: "#73AD21",
-							padding: "2px",
-							width: "100px",
-							marginRight: "10px",
-							height: "50px",
-						}}
-					>
-						Html
-					</span>
-					<span
-						style={{
-							borderRadius: "20px",
-							background: "#73AD21",
-							padding: "2px",
-							width: "100px",
-							marginRight: "10px",
-							height: "50px",
-						}}
-					>
-						Html
-					</span>
-					<span
-						style={{
-							borderRadius: "20px",
-							background: "#73AD21",
-							padding: "2px",
-							width: "100px",
-							marginRight: "10px",
-							height: "50px",
-						}}
-					>
-						Html
-					</span>
-					<span
-						style={{
-							borderRadius: "20px",
-							background: "#73AD21",
-							padding: "2px",
-							width: "100px",
-							marginRight: "10px",
-							height: "50px",
-						}}
-					>
-						Html
-					</span>
-					<span
-						style={{
-							borderRadius: "20px",
-							background: "#73AD21",
-							padding: "2px",
-							width: "100px",
-							marginRight: "10px",
-							height: "50px",
-						}}
-					>
-						Html
-					</span> */}
 				</div>
 			</Fade>
 		</Container>
