@@ -43,8 +43,8 @@ const About = () => {
 							I’m originally from Cuba. I’m a mom of two wonderful boys. I have
 							a Bachelor Degree in Computer Science. I am passionate about
 							coding, solving problems and UI design. In order to further expand
-							my coding expertise and learn new web technologies, I am currently
-							enrolled in the Full Stack Developer Coding Bootcamp, at The
+							my coding expertise and learn new web technologies, I recently
+							completed a six months intensive Full Stack Program at the
 							University of Texas at Austin.
 						</p>
 						<p>
