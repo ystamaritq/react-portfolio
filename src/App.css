@@ -159,6 +159,12 @@ nav .link:hover {
 	width: 100%;
 }
 
+.about > img:hover {
+	cursor: pointer;
+	background: linear-gradient(to right, white, rgba(255, 0, 0, 0.3));
+	border-width: 0.1px;
+}
+
 .project-title-card {
 	color: #604646;
 	font-weight: bold;
