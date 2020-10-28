@@ -33,6 +33,7 @@ const Contact = () => {
 						Let’s create your next<br></br>
 						<span className="amazing-color ml-5">experience together</span>
 					</h1>
+					<h4 className="rainbow-text">(404) 883-9494</h4>
 				</div>
 				<ul>
 					{contactData.map((link, index) => (
