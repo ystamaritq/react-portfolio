@@ -222,6 +222,16 @@ nav .link:hover {
 	font-size: 2em;
 }
 
+.rainbow-text {
+	font-size: 23px;
+	padding-right: 30px;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#371f0d, brown);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: transparent;
+}
+
 .contact li {
 	display: inline-block;
 	margin-top: 0;
